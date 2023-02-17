@@ -62,4 +62,18 @@
         app:layout_constraintVertical_bias="0.501"
         app:srcCompat="@drawable/fondrestaurant" />
 
+    <TextView
+        android:id="@+id/Titre"
+        android:layout_width="169dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="200dp"
+        android:autoText="false"
+        android:text="AndroidBistrot"
+        android:textColor="#FFFEFE"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMain"
+        app:layout_constraintEnd_toEndOf="@+id/buttonMain"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/buttonMain" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -34,7 +34,7 @@ class PanierActivity : AppCompatActivity() {
                 val json = file.readText()
                 val panier = Gson().fromJson(json, Array<Item>::class.java)
                 if(panier.isNotEmpty()) {
-                    Snackbar.make(binding.root, "Commande passée", Snackbar.LENGTH_SHORT).show()
+                    Snackbar.make(binding.root, "Commande envoyer", Snackbar.LENGTH_SHORT).show()
                     file.delete()
                     refreshPanier()
                     reloadLayout()

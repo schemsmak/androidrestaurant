@@ -29,7 +29,7 @@ class DetailActivity : AppCompatActivity() {
         binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.toolbar.title.text = "Détail"
+        binding.toolbar.title.text = "Details"
         binding.toolbar.panier.setOnClickListener {
             startActivity(Intent(this, PanierActivity::class.java))
         }
